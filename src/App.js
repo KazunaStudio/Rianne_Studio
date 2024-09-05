@@ -13,7 +13,7 @@ import { FnBWebsite } from './General/Portfolio/FnBWebsite';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/Rianne_Studio'>
         <div className="App" >
           <Navigation />
           <Routes>
