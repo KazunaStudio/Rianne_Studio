@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rianne_Studio/static/css/main.01253386.css",
-    "main.js": "/Rianne_Studio/static/js/main.5d0e2372.js",
+    "main.js": "/Rianne_Studio/static/js/main.435df346.js",
     "static/js/592.d521066a.chunk.js": "/Rianne_Studio/static/js/592.d521066a.chunk.js",
     "static/media/PEEL.mp4": "/Rianne_Studio/static/media/PEEL.ed3aa61e60be3cb1ade4.mp4",
     "static/media/Prototype.gif": "/Rianne_Studio/static/media/Prototype.12f32c1ec0514b1340a2.gif",
@@ -45,11 +45,11 @@
     "static/media/firstdraft.png": "/Rianne_Studio/static/media/firstdraft.4a0cc43d018bcc1a4910.png",
     "index.html": "/Rianne_Studio/index.html",
     "main.01253386.css.map": "/Rianne_Studio/static/css/main.01253386.css.map",
-    "main.5d0e2372.js.map": "/Rianne_Studio/static/js/main.5d0e2372.js.map",
+    "main.435df346.js.map": "/Rianne_Studio/static/js/main.435df346.js.map",
     "592.d521066a.chunk.js.map": "/Rianne_Studio/static/js/592.d521066a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01253386.css",
-    "static/js/main.5d0e2372.js"
+    "static/js/main.435df346.js"
   ]
 }
