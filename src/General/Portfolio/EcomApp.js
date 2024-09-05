@@ -160,7 +160,7 @@ export class Ecomapp extends Component{
                     <div class="bestworksothers">
                     <div class="bestworksitem">
                         <Nav>
-                            <Nav.Link href="./HearingAidApp" className='navstyle'>
+                            <Nav.Link href="/HearingAidApp" className='navstyle'>
                                 <div className='image1container'>
                                     <img src={work1} className='imagework1' alt="Logo"/>
                                 </div>
@@ -172,7 +172,7 @@ export class Ecomapp extends Component{
                     </div>
                     <div class="bestworksitem">
                         <Nav>
-                            <Nav.Link href="./FnBWebsite" className='navstyle'>
+                            <Nav.Link href="/FnBWebsite" className='navstyle'>
                                 <div className='image1container'>
                                     <img src={work3} className='imagework3' alt="Logo"/>
                                 </div>

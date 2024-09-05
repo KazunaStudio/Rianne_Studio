@@ -246,7 +246,7 @@ export class HearMe extends Component{
                     <div class="bestworksothers">
                     <div class="bestworksitem">
                         <Nav>
-                            <Nav.Link href="./SpectacleE-commerceApp" className='navstyle'>
+                            <Nav.Link href="/SpectacleE-commerceApp" className='navstyle'>
                                 <div className='image1container'>
                                     <img src={work9} className='imagework2' alt="Logo"/>
                                 </div>
@@ -258,7 +258,7 @@ export class HearMe extends Component{
                     </div>
                     <div class="bestworksitem">
                         <Nav>
-                            <Nav.Link href="./FnBWebsite" className='navstyle'>
+                            <Nav.Link href="/FnBWebsite" className='navstyle'>
                                 <div className='image1container'>
                                     <img src={work10} className='imagework3' alt="Logo"/>
                                 </div>

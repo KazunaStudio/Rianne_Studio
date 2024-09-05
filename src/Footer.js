@@ -16,9 +16,9 @@ export class Footer extends Component {
                     <table className='footer-items'>
                         <thead>
                         <tr>
-                            <td><Nav.Link href="./About" style={{fontSize:"16px", color:"white"}} className='flexfooter1'>About</Nav.Link>
+                            <td><Nav.Link href="/About" style={{fontSize:"16px", color:"white"}} className='flexfooter1'>About</Nav.Link>
                             </td>
-                            <td><Nav.Link href="./Portfolio" style={{fontSize:"16px", color:"white"}} className='flexfooter1'>Portfolio</Nav.Link>
+                            <td><Nav.Link href="/Portfolio" style={{fontSize:"16px", color:"white"}} className='flexfooter1'>Portfolio</Nav.Link>
                             </td>
                             <td>
                             <Nav.Link href="https://wa.me/6585355703" target="_blank"  style={{fontSize:"14px",color:"white",textAlign:"left",fontFamily:"Ralewaylight"}}>

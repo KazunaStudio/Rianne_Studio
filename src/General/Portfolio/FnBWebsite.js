@@ -131,7 +131,7 @@ export class FnBWebsite extends Component{
                     <div class="bestworksothers">
                     <div class="bestworksitem">
                         <Nav>
-                            <Nav.Link href="./HearingAidApp" className='navstyle'>
+                            <Nav.Link href="/HearingAidApp" className='navstyle'>
                                 <div className='image1container'>
                                     <img src={work1} className='imagework1' alt="Logo"/>
                                 </div>
@@ -143,7 +143,7 @@ export class FnBWebsite extends Component{
                     </div>
                     <div class="bestworksitem">
                         <Nav>
-                            <Nav.Link href="./SpectacleE-commerceApp" className='navstyle'>
+                            <Nav.Link href="/SpectacleE-commerceApp" className='navstyle'>
                                 <div className='image1container'>
                                     <img src={work9} className='imagework2' alt="Logo"/>
                                 </div>

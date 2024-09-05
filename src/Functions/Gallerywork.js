@@ -14,7 +14,7 @@ const Gallerywork = () => {
             <div class="bestworks">
                 <div class="bestworksitem">
                     <Nav>
-                        <Nav.Link href="./HearingAidApp" className='navstyle'>
+                        <Nav.Link href="/HearingAidApp" className='navstyle'>
                             <div className='image1container'>
                                 <img src={work1} className='imagework1' alt="Logo"/>
                             </div>
@@ -26,7 +26,7 @@ const Gallerywork = () => {
                 </div>
                 <div class="bestworksitem">
                     <Nav>
-                        <Nav.Link href="./SpectacleE-commerceApp" className='navstyle'>
+                        <Nav.Link href="/SpectacleE-commerceApp" className='navstyle'>
                             <div className='image1container'>
                                 <img src={work2} className='imagework2' alt="Logo"/>
                             </div>
@@ -38,7 +38,7 @@ const Gallerywork = () => {
                 </div>
                 <div class="bestworksitem">
                     <Nav>
-                        <Nav.Link href="./FnBWebsite" className='navstyle'>
+                        <Nav.Link href="/FnBWebsite" className='navstyle'>
                             <div className='image1container'>
                                 <img src={work3} className='imagework3' alt="Logo"/>
                             </div>
