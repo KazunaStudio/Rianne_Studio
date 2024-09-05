@@ -24,7 +24,7 @@ export class Errorpage extends Component{
                             <h2>The page your visiting  may be unavailable.</h2>
                             <br/>
                             <h3>Let me guide you back</h3>
-                            <a href="../" class="button-link">
+                            <a href="/" class="button-link">
                                 <button>Click here to return back to my studio</button>
                             </a>
                         </tr>
