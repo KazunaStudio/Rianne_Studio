@@ -11,7 +11,7 @@ import work6 from "../../Images/HearMe/NoiseDetection.png";
 import work7 from "../../Images/HearMe/chatmsg.png";
 import work9 from "../../Images/FYPJ/specs.png";
 import work10 from "../../Images/PEEL/PeelLogo.png";
-import {Nav, NavLink} from 'react-bootstrap';
+import {Nav} from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
 
@@ -246,7 +246,7 @@ export class HearMe extends Component{
                     <div class="bestworksothers">
                     <div class="bestworksitem">
                         <Nav>
-                            <Nav.Link href="/SpectacleE-commerceApp" className='navstyle'>
+                            <Nav.Link href="/Rianne_Studio/SpectacleE-commerceApp" className='navstyle'>
                                 <div className='image1container'>
                                     <img src={work9} className='imagework2' alt="Logo"/>
                                 </div>
@@ -258,7 +258,7 @@ export class HearMe extends Component{
                     </div>
                     <div class="bestworksitem">
                         <Nav>
-                            <Nav.Link href="/FnBWebsite" className='navstyle'>
+                            <Nav.Link href="/Rianne_Studio/FnBWebsite" className='navstyle'>
                                 <div className='image1container'>
                                     <img src={work10} className='imagework3' alt="Logo"/>
                                 </div>

@@ -1,4 +1,4 @@
-import React,{Component,useState} from 'react';
+import React,{Component} from 'react';
 import './General.css'
 import self from "../Images/aboutme.jpg";
 import BarGraph from '../Functions/bargraph';

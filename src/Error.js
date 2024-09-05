@@ -1,4 +1,4 @@
-import React,{Component,useState} from 'react';
+import React,{Component} from 'react';
 import 'react-slideshow-image/dist/styles.css';
 import fox_smile from "./Images/LittleFox_smiling.png"
 import './App.css';
@@ -14,7 +14,7 @@ export class Errorpage extends Component{
                 <table className='tablestyle'>
                     <td className='columnimage'>
                         <tr>
-                            <img src={fox_smile} className='image1'></img>
+                            <img src={fox_smile} className='image1' alt="pet"/>
                         </tr>
                     </td>
                     <td className='columnstyle'>
@@ -24,7 +24,7 @@ export class Errorpage extends Component{
                             <h2>The page your visiting  may be unavailable.</h2>
                             <br/>
                             <h3>Let me guide you back</h3>
-                            <a href="/" class="button-link">
+                            <a href="/Rianne_Studio" class="button-link">
                                 <button>Click here to return back to my studio</button>
                             </a>
                         </tr>
