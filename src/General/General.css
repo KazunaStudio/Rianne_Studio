@@ -1,0 +1,77 @@
+/* Content
+/* 1) About */
+/* 2) Best work for about */
+
+
+/* About */
+.imageself{
+    border-radius: 5%;
+    width: 60%;
+    border:solid 5px rgb(255, 255, 255);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); 
+}
+
+.innersection2{
+    display: flex;
+    align-items: center;
+    margin: -20px auto;
+    padding: 20px;
+    width: 100%;
+    margin-top: 2.5%;
+}
+
+.innercontrol2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+.columnstyle3 {
+    flex: -1; 
+    z-index: 1;
+    width: 50%;
+    margin-right: 4%;
+    z-index: 0;
+    animation: slideInFromRight 1s ease forwards;
+}
+ 
+.columnimage3 {
+    flex: 1;
+    z-index: 0;
+    text-align: right;
+    padding-right: 5%;
+    animation: slideInFromLeft 1s ease forwards;
+    z-index: 1;
+  }
+
+.image-container3 {
+    width: 100%;
+}
+
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+
+.Section2{
+margin: 0 auto;
+}
+
+/* Best work for about */
+.space{
+  margin-top: 2%;
+}
