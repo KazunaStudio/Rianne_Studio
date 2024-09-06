@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 import {Home} from './Home';
 import {Portfolio} from './General/Portfolio/Portfolio';
 import {About} from './General/About';
@@ -13,7 +13,7 @@ import { FnBWebsite } from './General/Portfolio/FnBWebsite';
 function App() {
 
   return (
-    <BrowserRouter basename='/Rianne_Studio'>
+    <HashRouter basename='/Rianne_Studio'>
         <div className="App" >
           <Navigation />
           <Routes>
@@ -27,7 +27,7 @@ function App() {
           </Routes>
           <Footer/>
         </div>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
