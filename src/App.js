@@ -18,11 +18,11 @@ function App() {
           <Navigation />
           <Routes>
             <Route path='/' element={<Home/>}/>
-            <Route path='/About' element={<About/>}/>
-            <Route path='/Portfolio' element={<Portfolio/>}/>
-            <Route path='/HearingAidApp' element={<HearMe/>}/>
-            <Route path='/SpectacleE-commerceApp' element={<Ecomapp/>}/>
-            <Route path='/FnBWebsite' element={<FnBWebsite/>}/>
+            <Route path='/Rianne_Studio/About' element={<About/>}/>
+            <Route path='/Rianne_Studio/Portfolio' element={<Portfolio/>}/>
+            <Route path='/Rianne_Studio/HearingAidApp' element={<HearMe/>}/>
+            <Route path='/Rianne_Studio/SpectacleE-commerceApp' element={<Ecomapp/>}/>
+            <Route path='/Rianne_Studio/FnBWebsite' element={<FnBWebsite/>}/>
             <Route path='*' element={<Errorpage/>}/>
           </Routes>
           <Footer/>
