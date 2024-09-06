@@ -3,13 +3,13 @@
 Weclome Welcome! Feel Free to grab a drink, take a sip and view my portfolio!
 
 
-Tools I Use for progamming:
-React JS
-HTML 
+Tools I Use for progamming|
+React JS,
+HTML,
 Python (Flask included)
 
 
-Tools I Use to create designs:
-Canva
-Krita
+Tools I Use to create designs|
+Canva,
+Krita,
 Figma
