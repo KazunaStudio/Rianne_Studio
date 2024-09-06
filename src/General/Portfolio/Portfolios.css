@@ -132,7 +132,7 @@ ol.custom-list li:before {
     justify-content: center; 
   }
   
-  .bestworksitem {
+  .bestworksitem2 {
     width: 100%;
     height: auto;
     background-color: white;
@@ -141,11 +141,11 @@ ol.custom-list li:before {
     transition: box-shadow 0.3s ease; 
   }
   
-  .bestworksitem:hover {
+  .bestworksitem2:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
   }
   
-  .bestworksitem:active {
+  .bestworksitem2:active {
     animation: scaleDown 0.3s ease;
   }
   
@@ -222,7 +222,7 @@ ol.custom-list li:before {
         margin-bottom: 5%;
       }
       
-      .bestworksitem {
+      .bestworksitem2 {
         background-color: lightgray; 
         margin-bottom: 10px;
       }

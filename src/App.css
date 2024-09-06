@@ -53,6 +53,21 @@
   transform: scale(0.9);
 }
 
+.textnav{
+  font-Size: 20px;
+  color:white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.iconsNav{
+  font-Size:"14px";
+  color:"white";
+  text-Align:"left";
+  font-Family:"Ralewaylight";
+  margin-right: 10px;
+}
+
 .custom-dropdown .dropdown-toggle::after {
   display: none; 
 }
@@ -128,6 +143,7 @@
 .hovering2:hover{
   text-shadow: 0 0 10px rgba(80, 59, 59, 0.7);
   transform: scale(0.95);
+  color: rgb(135, 167, 170);
 }
 
 .hovering3 {
@@ -146,7 +162,7 @@
 }
 
 .bi-whatsapp:hover path {
-  fill: #716a6a;
+  fill: rgb(135, 167, 170);
 }
 
 .bi-whatsapp:hover {
@@ -159,15 +175,30 @@
 }
 
 .bi-telegram:hover path {
-  fill: #716a6a;
+  fill: rgb(135, 167, 170);
 }
 
 .bi-telegram:hover {
   transform: scale(0.9);
 }
 
+.bi-linkedin{
+  text-shadow: 0 0 0 transparent;
+  transition: text-shadow 0.5s ease, transform 0.5s ease;
+}
+
+.bi-linkedin:hover path {
+  fill: rgb(135, 167, 170);
+}
+
+.bi-linkedin:hover {
+  transform: scale(0.9);
+}
+
 .highlight2 {
+  margin-right: 10px;
   text-decoration: 2px underline rgba(255, 0, 157, 0.637);
+  color: white;
 }
 
 .notactive{
@@ -243,10 +274,11 @@
   color: rgb(255, 255, 255);
   font-family: Ralewaylight;
   transition: color 0.5s ease, font-family 0.5s ease;
+  margin-right: 150px;
 }
 
 .normal:hover{
-  color: rgb(135, 124, 124);
+  color: rgb(135, 167, 170);
   font-family: Ralewaylight;
 }
 
@@ -254,13 +286,25 @@
   text-align: left;
   font-family: Ralewaylight;
   text-shadow: 0 0 0 transparent;
-  transition: text-shadow 0.5s ease, transform 0.5s ease;
+  transition: color 0.5s ease, font-family 0.5s ease;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 16px;
+  color: white;
 }
 
 .flexfooter1:hover{
   font-family: Ralewaylight;
-  text-shadow: 0 0 10px rgba(80, 59, 59, 0.7);
   transform: scale(0.95);
+  color:rgb(135, 167, 170);
+}
+
+.icons{
+  font-Size:"14px";
+  color:"white";
+  text-Align:"left";
+  font-Family:"Ralewaylight";
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 899px) {

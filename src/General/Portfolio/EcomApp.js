@@ -12,11 +12,12 @@ import work1 from "../../Images/HearMe/HearMe.png";
 import work3 from "../../Images/PEEL/PeelLogo.png";
 import {Nav} from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 export class Ecomapp extends Component{
     render(){
         return(
-            <div style={{paddingBottom:"5%"}}>
+            <div style={{paddingBottom:"5%"}} className='fadein'>
                 <Helmet>
                 <title>Spectacle E-commerce App | Rianne's Studio</title>
                 </Helmet>
@@ -160,26 +161,26 @@ export class Ecomapp extends Component{
                     <div class="bestworksothers">
                     <div class="bestworksitem">
                         <Nav>
-                            <Nav.Link href="/HearingAidApp" className='navstyle'>
+                            <Link to="/HearingAidApp" className='navstyle'>
                                 <div className='image1container'>
                                     <img src={work1} className='imagework1' alt="Logo"/>
                                 </div>
                                 <div className='textleft'>       
                                     <b>Hearing Aid App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Hearing Aid App <br/> (UX Design)</span> 
                                 </div>
-                            </Nav.Link>
+                            </Link>
                         </Nav>
                     </div>
                     <div class="bestworksitem">
                         <Nav>
-                            <Nav.Link href="/FnBWebsite" className='navstyle'>
+                            <Link to="/FnBWebsite" className='navstyle'>
                                 <div className='image1container'>
                                     <img src={work3} className='imagework3' alt="Logo"/>
                                 </div>
                                 <div className='textleft'>
                                     <b>FnB Website</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Front-End of the app <br/> (UX Design & Partial Development) </span> 
                                 </div>
-                            </Nav.Link>
+                            </Link>
                         </Nav>
                     </div>
                 </div>

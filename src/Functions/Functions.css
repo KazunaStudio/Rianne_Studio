@@ -424,24 +424,12 @@
   background-color: white;
   margin: 0 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease; 
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
 }
 
 .bestworksitem:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-}
-
-.bestworksitem:active {
-  animation: scaleDown 0.3s ease;
-}
-
-@keyframes scaleDown {
-  0% {
-    transform: scale(1); 
-  }
-  100% {
-    transform: scale(0.95); 
-  }
+  transform: scale(0.95);
 }
 
 .image1container{
@@ -474,11 +462,14 @@
  padding: 0;
  margin: 0;
  color: black;
+ text-decoration: none;
+ display: block;
 }
 
 .navstyle:hover{
   color: #265080;
 }
+
 
 @media only screen and (max-width: 899px) {
     

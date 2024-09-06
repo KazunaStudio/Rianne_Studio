@@ -1,6 +1,7 @@
 /* Content
 /* 1) About */
 /* 2) Best work for about */
+/* 3) Portfolio */
 
 
 /* About */
@@ -74,4 +75,18 @@ margin: 0 auto;
 /* Best work for about */
 .space{
   margin-top: 2%;
+}
+
+/* Portfolio */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadein {
+  animation: fadeIn 0.5s ease-in;
 }

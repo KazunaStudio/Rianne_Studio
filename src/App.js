@@ -9,12 +9,14 @@ import {Errorpage} from './Error';
 import { HearMe } from './General/Portfolio/HearMe';
 import { Ecomapp } from './General/Portfolio/EcomApp';
 import { FnBWebsite } from './General/Portfolio/FnBWebsite';
+import Gobckup from './Functions/Gobckup'; 
 
 function App() {
 
   return (
     <HashRouter>
         <div className="App" >
+          <Gobckup />
           <Navigation />
           <Routes>
             <Route path='/' element={<Home/>}/>
