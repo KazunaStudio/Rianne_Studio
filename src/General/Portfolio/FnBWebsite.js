@@ -131,28 +131,24 @@ export class FnBWebsite extends Component{
                     </div>
                     <div class="bestworksothers">
                     <div class="bestworksitem">
-                        <Nav>
-                            <Link to="/HearingAidApp" className='navstyle'>
-                                <div className='image1container'>
-                                    <img src={work1} className='imagework1' alt="Logo"/>
-                                </div>
-                                <div className='textleft'>       
-                                    <b>Hearing Aid App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Hearing Aid App <br/> (UX Design)</span> 
-                                </div>
-                            </Link>
-                        </Nav>
+                        <Link to="/HearingAidApp" className='navstyle'>
+                            <div className='image1container'>
+                                <img src={work1} className='imagework1' alt="Logo"/>
+                            </div>
+                            <div className='textleft'>       
+                                <b>Hearing Aid App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Hearing Aid App <br/> (UX Design)</span> 
+                            </div>
+                        </Link>
                     </div>
                     <div class="bestworksitem">
-                        <Nav>
-                            <Link to="/SpectacleE-commerceApp" className='navstyle'>
-                                <div className='image1container'>
-                                    <img src={work9} className='imagework2' alt="Logo"/>
-                                </div>
-                                <div className='textleft'>
-                                    <b>Spectacle E-commerce App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>First phase of the app creation <br/>(UX Design & First stage Development)</span> 
-                                </div>
-                            </Link>
-                        </Nav>
+                        <Link to="/SpectacleE-commerceApp" className='navstyle'>
+                            <div className='image1container'>
+                                <img src={work9} className='imagework2' alt="Logo"/>
+                            </div>
+                            <div className='textleft'>
+                                <b>Spectacle E-commerce App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>First phase of the app creation <br/>(UX Design & First stage Development)</span> 
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>

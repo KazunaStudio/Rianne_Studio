@@ -11,7 +11,6 @@ import work6 from "../../Images/HearMe/NoiseDetection.png";
 import work7 from "../../Images/HearMe/chatmsg.png";
 import work9 from "../../Images/FYPJ/specs.png";
 import work10 from "../../Images/PEEL/PeelLogo.png";
-import {Nav} from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
@@ -246,31 +245,26 @@ export class HearMe extends Component{
                     </div>
                     <div class="bestworksothers">
                     <div class="bestworksitem">
-                        <Nav>
-                            <Link to="/SpectacleE-commerceApp" className='navstyle'>
-                                <div className='image1container'>
-                                    <img src={work9} className='imagework2' alt="Logo"/>
-                                </div>
-                                <div className='textleft'>
-                                    <b>Spectacle E-commerce App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>First phase of the app creation <br/>(UX Design & First stage Development)</span> 
-                                </div>
-                            </Link>
-                        </Nav>
+                        <Link to="/SpectacleE-commerceApp" className='navstyle'>
+                            <div className='image1container'>
+                                <img src={work9} className='imagework2' alt="Logo"/>
+                            </div>
+                            <div className='textleft'>
+                                <b>Spectacle E-commerce App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>First phase of the app creation <br/>(UX Design & First stage Development)</span> 
+                            </div>
+                        </Link>
                     </div>
                     <div class="bestworksitem">
-                        <Nav>
-                            <Link to="/FnBWebsite" className='navstyle'>
-                                <div className='image1container'>
-                                    <img src={work10} className='imagework3' alt="Logo"/>
-                                </div>
-                                <div className='textleft'>
-                                    <b>FnB Website</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Front-End of the app <br/> (UX Design & Partial Development) </span> 
-                                </div>
-                            </Link>
-                        </Nav>
+                        <Link to="/FnBWebsite" className='navstyle'>
+                            <div className='image1container'>
+                                <img src={work10} className='imagework3' alt="Logo"/>
+                            </div>
+                            <div className='textleft'>
+                                <b>FnB Website</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Front-End of the app <br/> (UX Design & Partial Development) </span> 
+                            </div>
+                        </Link>
                     </div>
-                </div>
-                
+                </div> 
             </div>
         )
     }
