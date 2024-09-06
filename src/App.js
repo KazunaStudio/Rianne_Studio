@@ -3,6 +3,7 @@ import {HashRouter, Route, Routes} from 'react-router-dom';
 import {Home} from './Home';
 import {Portfolio} from './General/Portfolio/Portfolio';
 import {About} from './General/About';
+import {Contact} from './General/Contact';
 import {Navigation} from './Navigation';
 import {Footer} from './Footer';
 import {Errorpage} from './Error';
@@ -22,6 +23,7 @@ function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='/About' element={<About/>}/>
             <Route path='/Portfolio' element={<Portfolio/>}/>
+            <Route path='/Contact' element={<Contact/>}/>
             <Route path='/HearingAidApp' element={<HearMe/>}/>
             <Route path='/SpectacleE-commerceApp' element={<Ecomapp/>}/>
             <Route path='/FnBWebsite' element={<FnBWebsite/>}/>
