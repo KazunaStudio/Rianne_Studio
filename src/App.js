@@ -17,8 +17,12 @@ function App() {
   return (
     <HashRouter>
         <div className="App" >
+          <header>
           <Gobckup />
           <Navigation />
+          </header>
+
+          <main>
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/About' element={<About/>}/>
@@ -29,6 +33,7 @@ function App() {
             <Route path='/FnBWebsite' element={<FnBWebsite/>}/>
             <Route path='*' element={<Errorpage/>}/>
           </Routes>
+          </main>
           <Footer/>
         </div>
       </HashRouter>

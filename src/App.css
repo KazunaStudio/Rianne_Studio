@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
 }
 
 .App-header {
@@ -11,6 +15,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+main {
+  flex: 1; 
 }
 
 /* Content 
@@ -170,6 +178,19 @@
   transform: scale(0.9);
 }
 
+.bi-envelope-at-fill {
+  text-shadow: 0 0 0 transparent;
+  transition: text-shadow 0.5s ease, transform 0.5s ease;
+}
+
+.bi-envelope-at-fill:hover path {
+  fill: rgb(135, 167, 170);
+}
+
+.bi-envelope-at-fill:hover {
+  transform: scale(0.9);
+}
+
 .bi-telegram{
   text-shadow: 0 0 0 transparent;
   transition: text-shadow 0.5s ease, transform 0.5s ease;
@@ -250,6 +271,7 @@
   padding: 20px;
   background-color: #406a74;
   color: rgb(255, 255, 255);
+  margin-top: auto;
 }
 
 .footer-content {
