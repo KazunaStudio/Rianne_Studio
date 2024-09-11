@@ -270,12 +270,25 @@ main {
     width:35%; 
   }
 
+  .image2ph{
+    width: 65%;
+  }
+
   .column2{
     vertical-align: middle;
   }
 
   .Offcanvas{
     background-Color: #0b2b33c3;
+  }
+
+  .headerfont{
+    padding-Left: 5% ;
+    color:white;
+  }
+
+  .offcanvas{
+    width: 56%;
   }
 }
 
@@ -308,12 +321,20 @@ main {
   }
 }
 
+.headerfont{
+  font-size: 24px;
+}
+
 /* Navigation Phone Screen */
-@media screen and (max-width: 1024px) and (min-width: 769px){
+@media screen and (max-width: 1200px) and (min-width: 769px){
   
   .image-container{
     display: flex;
     margin-left: 5%;
+  }
+
+  .headerfont{
+    font-size: 24px;
   }
 
   .textnav {
