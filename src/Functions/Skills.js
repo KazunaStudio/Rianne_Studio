@@ -6,7 +6,6 @@ import '../Functions/Functions.css';
 const SkillsTable = () => {
     const [animationStarted, setAnimationStarted] = useState(false);
 
-    // Listen for scroll events
     useEffect(() => {
         const handleScroll = () => {
             if (!animationStarted && window.scrollY > 10) {

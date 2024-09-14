@@ -4,7 +4,6 @@ import '../Functions/Functions.css';
 const BarGraph = () => {
     const [animationStarted, setAnimationStarted] = useState(false);
 
-    // Listen for scroll events
     useEffect(() => {
       const handleScroll = () => {
         const element = document.querySelector('.bar-graph-wrapper');
@@ -21,16 +20,14 @@ const BarGraph = () => {
     };
 }, [animationStarted]);
 
-    // Sample data (values are percentages)
     const data = [
-        { label: 'Figma', value: 65}, // 50% height
-        { label: 'Digital Art', value: 45 }, // 25% height
-        { label: 'Programming', value: 75}, // 30% height
-        { label: 'Photography', value: 85}, // 20% height
-        { label: 'Bubble Tea', value: 70 }, // 20% height
+        { label: 'Figma', value: 65 }, 
+        { label: 'Write Scripts', value: 40 }, 
+        { label: 'React JS', value: 70 }, 
+        { label: 'Reading', value: 90 }, 
+        { label: 'Bubble Tea', value: 85 }, 
     ];
 
-    // Function to generate horizontal lines
     const generateHorizontalLines = () => {
         const lines = [];
         for (let i = 1; i <= 3; i++) {
@@ -49,9 +46,7 @@ const BarGraph = () => {
                 <div className="y-label">Newbie</div>
             </div>
 
-            {/* Bar graph container */}
             <div className="bar-graph-container">
-                {/* Background with grid lines */}
                 <div className="background-lines">
                     {generateHorizontalLines()}
                 </div>

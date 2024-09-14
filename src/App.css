@@ -292,7 +292,7 @@ main {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 800px){
   .tabletsnmobile{
     text-Align: Left;
     padding-Left: 10%;
@@ -325,8 +325,14 @@ main {
   font-size: 24px;
 }
 
+.highlight2 {
+  margin-right: 15px;
+  text-decoration: 2px underline rgba(255, 0, 157, 0.637);
+  color: white;
+}
+
 /* Navigation Phone Screen */
-@media screen and (max-width: 1200px) and (min-width: 769px){
+@media screen and (max-width: 1200px) and (min-width: 801px){
   
   .image-container{
     display: flex;

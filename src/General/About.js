@@ -35,8 +35,8 @@ export class About extends Component{
                 <Gallery/>
                 <hr style={{marginTop:"2%",borderTop:"solid 2px rgb(74, 84, 93)",marginBottom:"2%"}}/>
                 <SkillsTable/>
-                <hr style={{marginTop:"5%",borderTop:"solid 2px rgb(74, 84, 93)"}}/>
-                <div className='Section2'>
+                <hr style={{marginTop:"5%",borderTop:"solid 2px rgb(74, 84, 93)"}} className='bargraph-container'/>
+                <div className='Section2 bargraph-container '>
                     <h4>Strategic Skillset!</h4>
                     <BarGraph />
                 </div>

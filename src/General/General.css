@@ -72,6 +72,24 @@
 margin: 0 auto;
 }
 
+/* About Mobile */
+@media screen and (max-width: 600px){
+  .bargraph-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+  .bargraph-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+
+}
+
+
 /* Best work for about */
 .space{
   margin-top: 2%;
