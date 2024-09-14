@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rianne_Studio/static/css/main.0f3fbaa1.css",
-    "main.js": "/Rianne_Studio/static/js/main.2bf1c6f5.js",
+    "main.css": "/Rianne_Studio/static/css/main.92e274dd.css",
+    "main.js": "/Rianne_Studio/static/js/main.c2394f34.js",
     "static/js/592.d521066a.chunk.js": "/Rianne_Studio/static/js/592.d521066a.chunk.js",
     "static/media/PEEL.mp4": "/Rianne_Studio/static/media/PEEL.ed3aa61e60be3cb1ade4.mp4",
     "static/media/Prototype.gif": "/Rianne_Studio/static/media/Prototype.12f32c1ec0514b1340a2.gif",
@@ -44,12 +44,12 @@
     "static/media/pageheri.jpg": "/Rianne_Studio/static/media/pageheri.33901fa730fd6d26e66d.jpg",
     "static/media/firstdraft.png": "/Rianne_Studio/static/media/firstdraft.4a0cc43d018bcc1a4910.png",
     "index.html": "/Rianne_Studio/index.html",
-    "main.0f3fbaa1.css.map": "/Rianne_Studio/static/css/main.0f3fbaa1.css.map",
-    "main.2bf1c6f5.js.map": "/Rianne_Studio/static/js/main.2bf1c6f5.js.map",
+    "main.92e274dd.css.map": "/Rianne_Studio/static/css/main.92e274dd.css.map",
+    "main.c2394f34.js.map": "/Rianne_Studio/static/js/main.c2394f34.js.map",
     "592.d521066a.chunk.js.map": "/Rianne_Studio/static/js/592.d521066a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f3fbaa1.css",
-    "static/js/main.2bf1c6f5.js"
+    "static/css/main.92e274dd.css",
+    "static/js/main.c2394f34.js"
   ]
 }
