@@ -154,7 +154,7 @@ export class Ecomapp extends Component{
 
                 </div>
 
-                <div class="with-lines">
+                <div class="with-lines2">
                     <p>Check out some of my other works!</p>
                     </div>
                     <div class="bestworksothers">

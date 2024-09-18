@@ -50,8 +50,9 @@ main {
 }
 
 .image2{
-  width: 25%;
+  width: 50%;
   margin-bottom: 1.5%;
+  margin-left: 100%;
   text-shadow: 0 0 0 transparent;
   transition: text-shadow 0.5s ease, transform 0.5s ease;
 }
@@ -64,7 +65,7 @@ main {
   font-Size: 20px;
   color:white;
   text-decoration: none;
-  margin-right: 50px;
+  margin-right: 15px;
 }
 
 .iconsNav{
@@ -73,6 +74,10 @@ main {
   text-Align:"left";
   font-Family:"Ralewaylight";
   margin-right: 35px;
+}
+
+.textLinks{
+  margin-right: 50px;
 }
 
 .custom-dropdown .dropdown-toggle::after {
@@ -228,6 +233,10 @@ main {
 
 /* Navigation Phone Screen */
 @media screen and (max-width: 600px) {
+  .indentation{
+    margin-left: 130%;
+  }
+
   .navi_paddings{
     padding-bottom: 5%;
   }
@@ -245,7 +254,9 @@ main {
   .iconLinks{
     display: flex;
     flex-direction: row; 
-    align-items: center; 
+    align-items: center;
+    margin: 0 auto; 
+    margin-top: 5%;
   }
 
   .textLinks{
@@ -264,14 +275,16 @@ main {
     font-size: 24px; 
   }
 
+  .itemNav{
+    padding: 0;
+  }
+
   .image2{
-    justify-content: left;
-    margin-top: auto;
-    width:35%; 
+    margin: 0;
   }
 
   .image2ph{
-    width: 65%;
+    width: 75%;
   }
 
   .column2{
@@ -288,20 +301,21 @@ main {
   }
 
   .offcanvas{
-    width: 56%;
+    width: 50%;
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 800px){
-  .tabletsnmobile{
-    text-Align: Left;
-    padding-Left: 10%;
+  .image2{
+    justify-content: left;
+    margin-top: auto;
+    width: 65%; 
+    margin-left: 15%;
   }
 
-  .image2{
-  justify-content: left;
-  margin-top: auto;
-  width:40%; 
+  .offcanvas{
+    margin-right: 5%;
   }
 
   .textnav {
@@ -331,8 +345,7 @@ main {
   color: white;
 }
 
-/* Navigation Phone Screen */
-@media screen and (max-width: 1200px) and (min-width: 801px){
+@media screen and (max-width: 1100px) and (min-width: 801px){
   
   .image-container{
     display: flex;
@@ -360,10 +373,51 @@ main {
   }
   
   .image2{
-  justify-content: left;
-  margin-top: auto;
-  width:30%; 
+    justify-content: left;
+    margin-top: auto;
+    width: 65%; 
+    margin-left: 15%;
   }
+
+  .offcanvas{
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width:1100px) {
+  
+  .image-container{
+    display: flex;
+    margin-left: 5%;
+  }
+
+  .headerfont{
+    font-size: 24px;
+  }
+
+  .textnav {
+    font-size: 20px;
+    margin-right: 15px; 
+  }
+
+  .iconsNav{
+    margin-right: 10px; 
+    font-size: 24px; 
+  }
+
+  .iconLinks, .textLinks{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+  }
+  
+  .image2{
+    justify-content: left;
+    margin-top: auto;
+    width: 65%; 
+    margin-left: 50%;
+  }
+
 }
   
 
@@ -752,45 +806,3 @@ main {
     
 }
 
-/* Contact */
-.imagecontact{
-  width: 100%;
-  height: 100%; 
-  object-fit: cover;
-}
-
-.columnimagecontact{
-  flex: 1;
-  padding-left: 1%;
-  padding-right: 10%;
-  z-index: 0;
-  animation: slideInFromRight 1s ease forwards;
-}
-
-.columnstylecontact{
-  flex: -1; 
-  width: 50%;
-  padding-left: 15%;
-  animation: slideInFromLeft 1s ease forwards;
-  z-index: 1;
-}
-
-.image-containercontact{
-  width: 64%;
-  margin-left: auto;
-  margin-right: 50%;
-}
-
-.adjust{
-padding-left: 260px;
-}
-
-.iconwhatsapp:hover path {
-  fill: #37d3aa;
-}
-.icontelegram:hover path {
-  fill: #0275c2;
-}
-.iconlinkedin:hover path {
-  fill: #2864AA;
-}

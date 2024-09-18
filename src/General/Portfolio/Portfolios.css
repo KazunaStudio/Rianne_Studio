@@ -103,12 +103,12 @@ ol.custom-list li:before {
 }
 
 /* Gallery Others */
-.with-lines {
+.with-lines2 {
     position: relative;
   }
   
-  .with-lines::before,
-  .with-lines::after {
+  .with-lines2::before,
+  .with-lines2::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -117,11 +117,11 @@ ol.custom-list li:before {
     background-color: rgb(102, 95, 95);
   }
   
-  .with-lines::before {
+  .with-lines2::before {
     left: 25%;
   }
   
-  .with-lines::after {
+  .with-lines2::after {
     right: 25%;
   }
   
@@ -196,8 +196,8 @@ ol.custom-list li:before {
   
   @media only screen and (max-width: 899px) {
       
-      .with-lines::before,
-      .with-lines::after {
+      .with-lines2::before,
+      .with-lines2::after {
         content: '';
         position: absolute;
         top: 50%;
@@ -206,7 +206,7 @@ ol.custom-list li:before {
         background-color: transparent;
       }
       
-      .with-lines {
+      .with-lines2 {
         position: relative;
         padding-top: 5%;
       }

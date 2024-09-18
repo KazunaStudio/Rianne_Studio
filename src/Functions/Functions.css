@@ -6,10 +6,16 @@
  5) Gallery Best Work */
 
 /* Gallery */
+.centered_gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .gallery {
     display: flex; 
     flex-wrap: nowrap; 
-    overflow-x: auto; 
+    overflow-x: auto;
 }
   
   .gallery img {
@@ -76,14 +82,14 @@
     background-color: transparent;
     border: none;
     border-radius: 10%;
-    opacity: 0; /* Initially hide buttons */
-    transition: opacity 0.3s; /* Add transition for smooth appearance */
+    opacity: 0; 
+    transition: opacity 0.3s; 
   }
   
   .popup-content:hover .close-button,
   .popup-content:hover .prev-button,
   .popup-content:hover .next-button {
-    opacity: 1; /* Show buttons when popup content is hovered over */
+    opacity: 1; 
   }
   
   .close-button:hover, .prev-button:hover, .next-button:hover {
@@ -114,40 +120,94 @@
     margin-right: 3%;
   }
 
+/* Gallery Phone View */
+@media (max-width: 600px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    justify-items: center; 
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .popup-content {
+    max-width: 90%;
+    max-height: 80%;
+  }
+
+  .prev-button, .next-button {
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .close-button {
+    width: 20px;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 2%;
+  }
+
+  .popup-content img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }
+}
+
 /* Skills */
-.Designer {
+.Dskill_names{
+  font-Family: Raleway;
+  font-Size: 20px;
+  margin-top: 2%;
+}
+
+.Cskill_names{
+  font-Family: SourceCodePro; 
+  font-Size: 20px;
+  margin-top: 2%;
+}
+
+.underline{
+  width: 25%;
   margin: 0 auto;
-  padding-bottom: 3%;
+  border: #1d2a4d 1px solid;
+}
+
+.Designer {
+  margin-top: 20px;
   font-weight: bold;
   font-family: Salsa;
 }
+
 .Coder{
-  margin: 0 auto;
-  padding-bottom: 3%;
-  font-weight: bolder;
+  margin-top: 20px;
+  font-weight: bold;
   font-family: SourceCodePro;
 }
 
 .Designer_border{
-  margin: 0 auto;
-  padding-top: 2%;
-  padding-bottom: 3%;
+  align-items: center;
   border: double 4px rgb(255, 191, 0);
-  width: 85%;
-  height: 250px;
   align-items: center;
   justify-content: center;
+  margin-right: 5%;
+  height: 250px;
 }
 
 .Coder_border{
-  margin: 0 auto;
-  padding-top: 2%;
-  padding-bottom: 3%;
+  align-items: center;
   border: double 4px rgb(41, 203, 52);
-  width: 43%;
-  height: 250px;
   align-items: center;
   justify-content: center;
+  margin-left: 5%;
+  height: 250px;
 }
 
 .table-container {
@@ -171,9 +231,161 @@
 
 .table-image2 {
   position: absolute;
-  bottom: 45%; 
-  right: 16%;
+  bottom: 35%; 
+  right: 18%;
   width: 12%;
+}
+
+.table_adjust{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.header{
+  margin-Bottom:2%;
+  font-Family:Caveat;
+  font-Weight:bolder;
+  font-Size:35px;
+}
+
+td{
+  width: 50%;
+}
+
+/* Skill phone mobile */
+@media screen and (max-width: 600px) {
+  .underline{
+    width: 40%;
+  }
+
+  .Designer,
+  .Coder{
+    font-size: 21px;
+  }
+
+  .Cskill_names,
+  .Dskill_names{
+    font-size: 18px;
+  }
+
+  .Designer_border,
+  .Coder_border{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .table_adjust{
+    width: 100%;
+  }
+
+  .table-container {
+    padding: 10px;
+    transform: scale(1);
+  }
+
+  table {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .table-image,
+  .table-image2 {
+    display: none;
+  }
+
+  h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width:800px) and (max-width:800px) {
+  .table-image,
+  .table-image2 {
+    display: none;
+  }
+
+  .underline{
+    width: 40%;
+  }
+  
+  .Designer_border,
+  .Coder_border{
+    width: 300px;
+    height: 300px;
+  }
+
+  td{
+    padding-right: 20px;
+  }
+
+}
+
+@media screen and (min-width:800px) and (max-width:900px) {
+  .table-image {
+    position: absolute;
+    top: 72%; 
+    left: 8%; 
+    width: 15%;
+  }
+  
+  .table-image2 {
+    position: absolute;
+    bottom: 55%; 
+    right: 5%;
+    width: 15%;
+  }
+
+  .Designer_border,
+  .Coder_border{
+    width: 300px;
+    height: 300px;
+  }
+
+}
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+  .table-image {
+    position: absolute;
+    top: 70%; 
+    left: 17%; 
+    width: 12%;
+  }
+  
+  .table-image2 {
+    position: absolute;
+    bottom: 45%; 
+    right: 17%;
+    width: 12%;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:768px) {
+  .table-image,
+  .table-image2 {
+    display: none;
+  }
+
+  .underline{
+    width: 50%;
+  }
+  
+  .Designer_border,
+  .Coder_border{
+    width: 300px;
+    height: 300px;
+  }
+
+  td{
+    padding-right: 20px;
+  }
+
 }
 
 /* BarGraph */
@@ -316,11 +528,13 @@
   align-items: center;
   border-radius:5%;
 }
+
 .container #video {
   width: 600px;
   height: 340px;
   border-radius: 5%;
 }
+
 .container .controls {
   position: absolute;
   bottom: 40px;
@@ -330,9 +544,11 @@
   opacity: 0.2;
   transition: opacity 0.4s;
 }
+
 .container:hover .controls {
   opacity: 1;
 }
+
 .container .controls button {
   background: transparent;
   color: #fff;
@@ -341,6 +557,7 @@
   border: none;
   cursor: pointer;
 }
+
 .container .controls .timeline {
   flex: 1;
   display: flex;
@@ -349,19 +566,23 @@
   border-right: 3px solid #ccc;
   border-left: 3px solid #ccc;
 }
+
 .container .controls .timeline .bar{
   background: rgb(1, 1, 65);
   height: 4px;
   flex: 1;
 }
+
 .container .controls .timeline .bar .inner{
   background: #ffffff;
   width: 0%;
   height: 100%;
 }
+
 .fa {
   font-size: 20px !important;
 }
+
 .fonts{
   font-size: 40px;
   font-family: Libre Baskerville;
@@ -400,7 +621,7 @@
   top: 50%;
   width: 200px;
   height: 3px;
-  background-color: rgb(208, 206, 206);
+  background-color: rgb(102, 95, 95);
 }
 
 .with-lines::before {
@@ -415,6 +636,7 @@
   width: 70%; 
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
   justify-content: center; 
 }
 
@@ -470,50 +692,62 @@
   color: #265080;
 }
 
-
+/* Gallery Best Work Mobile */
 @media screen and (max-width:600px) {
-    
-    .with-lines::before,
-    .with-lines::after {
-      display: none;
-    }
-    
-    .with-lines {
-      position: relative;
-      padding-top: 5%;
-    }
+  .with-lines::before,
+  .with-lines::after {
+    display: none;
+  }
 
-    .bestworks {
-      flex-direction: column;
-      width: 80%;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 5%;
-    }
-    
-    .bestworksitem {
-      background-color: lightgray; 
-      margin-bottom: 10px;
-    }
-    
-}
-
-@media screen and (max-width:800px) {
-  .table-image {
-    position: absolute;
-    top: 55%; 
-    left: 20%; 
-    width: 12%;
+  .bestworks {
+    align-items: center;
+    margin-bottom: 5%;
   }
   
-  .table-image2 {
-    position: absolute;
-    bottom: 45%; 
-    right: 16%;
-    width: 12%;
+  .bestworksitem {
+    background-color: rgb(255, 255, 255); 
+    margin-bottom: 5%;
   }
+    
 }
+
+@media screen and (min-width:750px) and (max-width:900px) {
+  .with-lines::before,
+  .with-lines::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(102, 95, 95);
+  }
+
+  .with-lines::before {
+    left: 16%;
+  }
+  
+  .with-lines::after {
+    right: 16%;
+  }
+
+  .bestworksitem {
+    background-color: rgb(255, 255, 255); 
+    margin-bottom: 5%;
+    width: 80%;
+  }
+  
+}
+
+@media screen and (min-width:1100px) and (max-width:1300px) {
+
+  .with-lines::before {
+    left: 15%;
+  }
+  
+  .with-lines::after {
+    right: 15%;
+  }
+  
+}
+
 

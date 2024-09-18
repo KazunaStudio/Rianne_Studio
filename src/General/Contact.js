@@ -2,8 +2,7 @@ import React,{Component,useState,useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import 'react-slideshow-image/dist/styles.css';
 import selfimg from "../Images/Self-Image.png";
-import "../App.css"
-import GalleryWork from '../Functions/Gallerywork';
+import './General.css'
 
 
 export class Contact extends Component{

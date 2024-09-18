@@ -22,20 +22,23 @@ const SkillsTable = () => {
 
     return (
         <div className={`table-container ${animationStarted ? 'zoom-out' : ''}`}>
-            <h4 style={{marginBottom:'2%', fontFamily:"Caveat",fontWeight:"bolder",fontSize:"35px"}}>Design Magician: Weaving Code and Creativity!</h4>
+            <h4 className='header'>Design Magician: Weaving Code and Creativity!</h4>
             <br/>
-            <table style={{ margin: "0 auto", width: "50%" }}>
+            <table className='table_adjust'>
                 <tr>
                     <td>
                         <div className='Designer_border'>
                             <h4 className='Designer'>Part Designer</h4>
-                            <p style={{ fontFamily: "Raleway" }}>Figma<br />Canva<br />UI Design <br /> UX Design<br />Web/App Design</p>
+                            <hr className='underline'/>
+                            <p className='Dskill_names'>Figma<br />Canva<br />UI Design <br /> UX Design<br />Web/App Design</p>
                         </div>
                     </td>
-                    <td style={{ width: "5%" }}></td>
-                    <td className='Coder_border'>
-                        <h4 className='Coder'>Part Coder</h4>
-                        <p style={{ fontFamily: "SourceCodePro", fontSize: "20px" }}>React Js <br /> Python <br /> HTML/CSS <br />Front-End Development <br /> Snacking</p>
+                    <td>
+                        <div className='Coder_border'>
+                            <h4 className='Coder'>Part Coder</h4>
+                            <hr className='underline'/>
+                            <p className='Cskill_names'>React Js <br /> Python <br /> HTML/CSS <br />Front-End Development <br /> Snacking</p>
+                        </div>
                     </td>
                 </tr>
             </table>

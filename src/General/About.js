@@ -19,7 +19,7 @@ export class About extends Component{
                             </div>
                         </div>
                         <div className='columnstyle3'>
-                            <div className='centers' style={{width:"75%"}}>
+                            <div className='centers'>
                                 <h1 style={{fontSize:"45px"}}>My Story</h1><hr style={{borderTop:"solid 4px rgb(74, 84, 93)"}}/>
                                 <p style={{fontFamily:"Ralewaylight"}}>
                                     <span style={{fontSize:"22px",fontFamily:"Raleway"}}>I'm a student studying Applied Computing at Singapore Institute of Technology (SIT).</span>

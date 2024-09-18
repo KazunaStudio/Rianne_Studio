@@ -23,7 +23,7 @@ export class Navigation extends Component{
                 <Container fluid >
                   <table>
                     <tbody>
-                    <td className='tabletsnmobile'>
+                    <td>
                       <tr>
                         <Navbar.Brand href="/Rianne_Studio" className='image-container'>
                           <img src={logo} className='image2' alt="Logo"/>
@@ -32,11 +32,13 @@ export class Navigation extends Component{
                     </td>
                     <td>
                       <tr>
+                        <div className='indentation'>
                         <Navbar.Toggle style={{border:"none"}}  onClick={() => setShowOffcanvas(true)}>
                           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" className="bi bi-filter-right" viewBox="0 0 16 16">
                             <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5m0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5m0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5"/>
                           </svg>
                         </Navbar.Toggle>
+                        </div>
                       </tr>
                   </td>              
                   </tbody>
@@ -45,7 +47,7 @@ export class Navigation extends Component{
                   <Navbar.Offcanvas show={showOffcanvas} onHide={() => setShowOffcanvas(false)} className="offcanvas">
                     <Offcanvas.Header style={{backgroundColor:"#406a74"}}>
                       <Offcanvas.Title>
-                        <a href="/Rianne_Studio"><img src={logo} className='image2ph' alt="Logo"/></a> <b className='headerfont' style={{fontSize:"30px"}}>Welcome!</b>
+                        <a href="/Rianne_Studio"><img src={logo} className='image2ph' alt="Logo"/></a> <b className='headerfont' style={{fontSize:"34px"}}>Welcome!</b>
                       </Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body className="Offcanvas">
