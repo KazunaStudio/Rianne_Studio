@@ -184,3 +184,93 @@ padding-left: 260px;
 .iconlinkedin:hover path {
   fill: #2864AA;
 }
+
+.section2 {
+  margin-bottom: 5%;
+  background-size: auto 100%, cover;
+  background-position: left, center;
+  padding: 20px;
+  padding-top: 2.5%;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 10px 3px 5px #8888887c;
+  background-color: #ffffff;
+}
+
+.innersection2 {
+  display: flex;
+  align-items: center;
+  margin: -40px auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.innercontrol1{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.columnstyle3 {
+  width: 50%;
+  padding-left: 15%;
+  animation: slideInFromLeft 1s ease forwards;
+  z-index: 1;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* contact mobile */
+@media screen and (max-width: 600px) {
+  .section2 {
+    background: #F9F9F9;
+    border: solid 0px rgb(246, 237, 244);
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 0;
+  }
+  
+  .innercontrol1 {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .innersection2 {
+    margin: 0px auto;
+    padding: 0px;
+  }
+
+  .columnstyle3 {
+    width: 100%; 
+    order: 2; 
+    text-align: center;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .image-containercontact{
+    margin: 0 auto;
+  }
+
+  .columnimagecontact{
+    padding: 0;
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (min-width:700px) and  (max-width:900px) {
+  .image-containercontact{
+    width: 100%;
+  }
+}

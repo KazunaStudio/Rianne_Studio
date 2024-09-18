@@ -9,10 +9,10 @@ export class Contact extends Component{
     render(){
         return(
             <div style={{paddingTop:"6%",paddingBottom:"1%"}}>
-                <div className='section1'>
-                    <div className='innersection1'>
-                        <div className='innercontrol'>
-                            <div className='columnstyle2 adjust'>
+                <div className='section2'>
+                    <div className='innersection2'>
+                        <div className='innercontrol1'>
+                            <div className='columnstyle3 adjust'>
                                 <RacingText/>
                                 <p style={{marginTop:"5%"}}>Contact me through the following media</p>
                                 <p style={{marginTop:"8%"}}>

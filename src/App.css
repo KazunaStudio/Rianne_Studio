@@ -770,6 +770,7 @@ main {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 5%;
   }
   
   .innercontrol {
@@ -783,26 +784,45 @@ main {
     padding: 0px;
   }
 
-    .columnstyle2 {
-      width: 100%; 
-      order: 2; 
-      text-align: center;
-      font-size: 16px;
-    }
+  .columnstyle2 {
+    width: 100%; 
+    order: 2; 
+    text-align: center;
+    font-size: 16px;
+    padding: 0;
+  }
 
-    .columnimage2 {
-      width: 60%;
-      order: 1;
-      margin-bottom: 5%;
-      padding-left: 5%;
-      padding-right: 5%;
-      border: groove 10px rgb(110, 67, 50);
-    }
+  .columnimage2 {
+    width: 60%;
+    order: 1;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: groove 10px rgb(110, 67, 50);
+  }
 
-    .mobilever{
-      font-size: 24px;
-      padding-bottom: 2%;
-    }
+  .mobilever{
+    font-size: 24px;
+    padding-bottom: 2%;
+  }
     
 }
 
+@media screen and (min-width: 700px) and (max-width: 1300px) {
+  .SITimage{
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .columnimage2{
+    padding: 0;
+  }
+
+  .columnstyle2{
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 0;
+  }
+
+}

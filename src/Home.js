@@ -17,7 +17,7 @@ export class Home extends Component{
                             <div className='columnstyle2'>
                                 <div className='centers'>
                                     <RacingText />
-                                    <p style={{fontFamily:"Raleway"}}>A student living in <span style={{fontFamily:"MarckScript", fontSize:"30px"}}>Singapore</span>, studying <span style={{fontFamily:"SourceCodePro"}}>Applied Computing</span> at 
+                                    <p className= "fontsizing_about" style={{fontFamily:"Raleway"}}>A student living in <span style={{fontFamily:"MarckScript", fontSize:"30px"}}>Singapore</span>, studying <span style={{fontFamily:"SourceCodePro"}}>Applied Computing</span> at 
                                         <img src={sitimg} className='SITimage' alt="Logo"/>with an interest to be <span style={{fontFamily:"Salsa", fontSize:"20px"}}>UX/UI designer or developer</span>.
                                     </p>
                                     <button className='storybutton'>
