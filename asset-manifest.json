@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rianne_Studio/static/css/main.8612e7ca.css",
-    "main.js": "/Rianne_Studio/static/js/main.a3f70f7d.js",
+    "main.js": "/Rianne_Studio/static/js/main.9d423c77.js",
     "static/js/592.d521066a.chunk.js": "/Rianne_Studio/static/js/592.d521066a.chunk.js",
     "static/media/PEEL.mp4": "/Rianne_Studio/static/media/PEEL.ed3aa61e60be3cb1ade4.mp4",
     "static/media/Prototype.gif": "/Rianne_Studio/static/media/Prototype.12f32c1ec0514b1340a2.gif",
@@ -19,6 +19,7 @@
     "static/media/googleform.png": "/Rianne_Studio/static/media/googleform.12bff293b131bd4ff646.png",
     "static/media/Caveat-Regular.ttf": "/Rianne_Studio/static/media/Caveat-Regular.419940188ab4de524042.ttf",
     "static/media/UC-fd7fae51-4500-44f5-8870-d00ff027dac0.jpg": "/Rianne_Studio/static/media/UC-fd7fae51-4500-44f5-8870-d00ff027dac0.e7501b1dd0e64e67958a.jpg",
+    "static/media/20240920163046.png": "/Rianne_Studio/static/media/20240920163046.d2a19b3172260b16fa0c.png",
     "static/media/Seller.png": "/Rianne_Studio/static/media/Seller.5bc9d92ecb44549a8ec2.png",
     "static/media/UC-d92fa93f-012c-4c88-9770-82f4ddf39a6d.jpg": "/Rianne_Studio/static/media/UC-d92fa93f-012c-4c88-9770-82f4ddf39a6d.f0283103671de26e017c.jpg",
     "static/media/Raleway-Regular.ttf": "/Rianne_Studio/static/media/Raleway-Regular.c15b0bf7b86f34335251.ttf",
@@ -45,11 +46,11 @@
     "static/media/firstdraft.png": "/Rianne_Studio/static/media/firstdraft.4a0cc43d018bcc1a4910.png",
     "index.html": "/Rianne_Studio/index.html",
     "main.8612e7ca.css.map": "/Rianne_Studio/static/css/main.8612e7ca.css.map",
-    "main.a3f70f7d.js.map": "/Rianne_Studio/static/js/main.a3f70f7d.js.map",
+    "main.9d423c77.js.map": "/Rianne_Studio/static/js/main.9d423c77.js.map",
     "592.d521066a.chunk.js.map": "/Rianne_Studio/static/js/592.d521066a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8612e7ca.css",
-    "static/js/main.a3f70f7d.js"
+    "static/js/main.9d423c77.js"
   ]
 }
