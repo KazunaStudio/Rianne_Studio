@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import '../General.css';
 import './Portfolios.css';
 import video from "./Videos/HearMe.mp4";
 import work1 from "../../Images/HearMe/HearMe.png";
@@ -22,24 +21,24 @@ export class HearMe extends Component{
                 <Helmet>
                 <title>Hearing Aid App | Rianne's Studio</title>
                 </Helmet>
-                <div style={{paddingBottom:"5%",paddingTop:"3%",fontFamily:"Raleway", width:"65%", margin:"0 auto", textAlign:"left"}}>
+                <div className='body_portfolio'>
                     <h4 className='fonts'>Hearing Aid App</h4>
                         <p style={{textAlign:"center"}}>
                             My experience designing an app for a school project to assist individuals with 
                             hearing disabilities, specifically those facing mild to profound hearing loss
                         </p>
                         <p style={{fontSize:"14px", margin:"0 auto", textAlign:"center"}}><img src={work1} className='imagehearme' alt="hearmeimage"/>Fun Fact: This logo is what I have made using Krita & Canva.</p>
-                        <table style={{margin:"3% auto",width:"90%"}}>
+                        <table className='table_adjust'>
                             <tr>
                                 <td className='lines'>
-                                    <h3 className='subheader' style={{marginLeft: "10%"}}>Project Deliverables</h3>
+                                    <h3 className='subheader'>Deliverables</h3>
                                     <p className='subbody'>
                                         Unique Value Proposition <br/>
                                         Interactive Prototype
                                     </p>
                                 </td>
                                 <td className='lines'>
-                                    <h3 className='subheader' style={{marginLeft: "10%"}}>My Role</h3>
+                                    <h3 className='subheader'>My Role</h3>
                                     <p className='subbody'>
                                         User Research <br/>
                                         UI/UX Design <br/>
@@ -47,7 +46,7 @@ export class HearMe extends Component{
                                     </p>
                                 </td>
                                 <td>
-                                    <h3 className='subheader' style={{marginLeft: "10%"}}>Context</h3>
+                                    <h3 className='subheader'>Context</h3>
                                     <p className='subbody'>
                                     Duration : 6 Months
                                     Team: Sagaan Pillai, Noor Ellyiana, Koh Xi Ze

@@ -26,11 +26,11 @@ export class Ecomapp extends Component{
                             My experience designing an app for a start-up e-commerce business relating to Spectacles. 
                             The goal is to promote the recycling of spectacles by selling/donating.
                         </p>
-                        <p style={{fontSize:"14px", margin:"0 auto", textAlign:"center"}}><img src={phone1} className='imagehearme' alt="phone1"/> Disclaimer: This logo is  what I have made (with AI), not the official logo used due to copyright.</p>
-                        <table style={{margin:"3% auto",width:"90%"}}>
+                        <p style={{fontSize:"14px", margin:"0 auto", textAlign:"center"}}><img src={phone1} className='imagehearme' alt="phone1"/> Disclaimer: This logo is what I have made using AI, not the official logo used due to copyright.</p>
+                        <table  className='table_adjust'>
                             <tr>
                                 <td className='lines'>
-                                    <h3 className='subheader' style={{marginLeft: "10%"}}>Project Deliverables</h3>
+                                    <h3 className='subheader' style={{marginLeft: "10%"}}>Deliverables</h3>
                                     <p className='subbody'>
                                         User Interface (Mobile)<br/>
                                         Interactive Prototype<br/>

@@ -590,24 +590,6 @@ td{
   text-align: center;
 }
 
-.lines{
-  border-right: black 5px solid;
-  text-align: left;
-  width: 35%;
-  vertical-align: top;
-}
-
-.subheader{
-  font-weight: bolder;
-  font-size: 27px;
-  color: #402B40;
-  text-align: left;
-}
-
-.subbody{
-  margin-left: 10%;
-  text-align: left;
-}
 
 /* Gallery Best Work */
 .with-lines {

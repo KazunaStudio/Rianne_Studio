@@ -5,6 +5,26 @@
  */
 
 /* HearMe app */
+.lines{
+  border-right: black 5px solid;
+  text-align: left;
+  width: 35%;
+  vertical-align: top;
+}
+
+.subheader{
+  font-weight: bolder;
+  font-size: 27px;
+  color: #402B40;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.subbody{
+  margin-left: 10%;
+  text-align: left;
+}
+
 ol.custom-list {
     list-style-type: none; 
     counter-reset: custom-counter; 
@@ -55,7 +75,7 @@ ol.custom-list li:before {
 }
 
 .container a {
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; 
 }
 
 .container a:hover {
@@ -82,6 +102,72 @@ ol.custom-list li:before {
     font-size: 20px;
     font-weight: bold;
     margin-top: 2%
+}
+
+.table_adjust{
+  margin: 3% auto;
+  width: 100%;
+}
+
+.body_portfolio{
+  padding-bottom: 5%;
+  padding-top: 3%;
+  font-family: Raleway;
+  width: 65%;
+  margin: 0 auto;
+  text-align:left;
+}
+
+@media screen and (max-width:600px) {
+  .imagehearme{
+    width: 200px;
+    height:200px;
+  }
+
+  .lines{
+    border-right: none;
+  }
+
+  .subheader{
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .subbody{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .table_adjust{
+    margin: 0;
+    width: 100%;
+    display: block;
+
+  }
+
+  .table_adjust tr {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .table_adjust td {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #ddd;
+  }
+
+  .body_portfolio{
+    padding-bottom: 5%;
+    padding-top: 3%;
+    font-family: Raleway;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
 }
 
 /* Ecom App */

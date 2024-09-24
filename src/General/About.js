@@ -10,7 +10,7 @@ import GalleryWork from '../Functions/Gallerywork.js';
 export class About extends Component{
     render(){
         return(
-            <div style={{paddingBottom:"5%"}}>
+            <div style={{marginBottom:"5%", marginTop:"5%"}}>
                 <div className='innersection2'>
                     <div className='innercontrol2'>
                         <div className='columnimage3'>
