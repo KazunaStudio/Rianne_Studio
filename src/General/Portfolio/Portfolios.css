@@ -104,7 +104,7 @@ ol.custom-list li:before {
     margin-top: 2%
 }
 
-.table_adjust{
+.table_adjust_port{
   margin: 3% auto;
   width: 100%;
 }
@@ -139,19 +139,19 @@ ol.custom-list li:before {
     margin: 0 auto;
   }
 
-  .table_adjust{
+  .table_adjust_port{
     margin: 0;
     width: 100%;
     display: block;
 
   }
 
-  .table_adjust tr {
+  .table_adjust_port tr {
     display: block;
     margin-bottom: 20px;
   }
 
-  .table_adjust td {
+  .table_adjust_port td {
       display: block;
       width: 100%;
       padding: 15px;

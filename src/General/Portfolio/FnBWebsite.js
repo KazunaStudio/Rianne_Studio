@@ -25,7 +25,7 @@ export class FnBWebsite extends Component{
                             My experience designing a website for a school project relating to F&B. The goal is to help the F&B Industry by improving their website.
                         </p>
                         <p style={{fontSize:"14px", margin:"0 auto", textAlign:"center"}}>Just an FYI, the place was shut down on the 28th of June 2020. I am sad to see it go, it was a great place to eat.<img src={logo} className='imagehearme' alt="phone1"/></p>
-                        <table  className='table_adjust'>
+                        <table  className='table_adjust_port'>
                             <tr>
                                 <td className='lines'>
                                     <h3 className='subheader' style={{marginLeft: "10%"}}>Deliverables</h3>

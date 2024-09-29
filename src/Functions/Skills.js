@@ -24,7 +24,7 @@ const SkillsTable = () => {
         <div className={`table-container ${animationStarted ? 'zoom-out' : ''}`}>
             <h4 className='header'>Design Magician: Weaving Code and Creativity!</h4>
             <br/>
-            <table className='table_adjust'>
+            <table className='table_adjust_skills'>
                 <tr>
                     <td>
                         <div className='Designer_border'>

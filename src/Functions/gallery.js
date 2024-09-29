@@ -2,7 +2,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import '../Functions/Functions.css';
 
 function importAll(r) {
-  return r.keys().map(r);
+  try {
+    return r.keys().map(r);
+  } catch (error) {
+    console.error("Error loading images:", error);
+    return []; 
+  }
 }
 
 const Gallery = () => {

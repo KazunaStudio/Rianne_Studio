@@ -27,7 +27,7 @@ export class Ecomapp extends Component{
                             The goal is to promote the recycling of spectacles by selling/donating.
                         </p>
                         <p style={{fontSize:"14px", margin:"0 auto", textAlign:"center"}}><img src={phone1} className='imagehearme' alt="phone1"/> Disclaimer: This logo is what I have made using AI, not the official logo used due to copyright.</p>
-                        <table  className='table_adjust'>
+                        <table  className='table_adjust_port'>
                             <tr>
                                 <td className='lines'>
                                     <h3 className='subheader' style={{marginLeft: "10%"}}>Deliverables</h3>

@@ -236,7 +236,7 @@
   width: 12%;
 }
 
-.table_adjust{
+.table_adjust_skills{
   margin: 0 auto;
   width: 50%;
 }
@@ -274,7 +274,7 @@ td{
     margin-left: 5%;
   }
 
-  .table_adjust{
+  .table_adjust_skills{
     width: 100%;
   }
 
