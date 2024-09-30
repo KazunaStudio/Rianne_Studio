@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import {Navbar} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import resumePDF from './Resume/Resume.pdf';
 
 export class Footer extends Component {
     render() {
@@ -21,6 +22,9 @@ export class Footer extends Component {
                             <td><Link to="/Portfolio" className='flexfooter1'>Portfolio</Link>
                             </td>
                             <td><Link to="/Contact" className='flexfooter1'>Contact</Link>
+                            </td>
+                            <td>
+                            <a href={resumePDF} className='flexfooter1' target="_blank" rel="noopener noreferrer">Resume</a>
                             </td>
                         </tr>
                         </thead>
