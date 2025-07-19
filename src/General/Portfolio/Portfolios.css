@@ -2,6 +2,7 @@
  1) HearMe 
  2) Ecom App
  3) PEEL
+ 4) Premium App
  */
 
 /* HearMe app */
@@ -12,12 +13,15 @@
   vertical-align: top;
 }
 
+.hearme{
+  margin-left: 10%;
+}
+
 .subheader{
   font-weight: bolder;
   font-size: 27px;
   color: #402B40;
   text-align: left;
-  margin-left: 10%;
 }
 
 .subbody{
@@ -188,6 +192,17 @@ ol.custom-list li:before {
     text-decoration: underline;
 }
 
+/* Premium App */
+.imagePremium{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 2%;
+}
+
 /* Gallery Others */
 .with-lines2 {
     position: relative;
@@ -212,7 +227,7 @@ ol.custom-list li:before {
   }
   
   .bestworksothers {
-    width: 40%; 
+    width: 60%;
     margin: 0 auto;
     display: flex;
     justify-content: center; 
@@ -249,16 +264,7 @@ ol.custom-list li:before {
     background-color: #F5F3EB;
   }
   
-  .imagework1{
-    width: 50%;
-  }
-  
-  .imagework2{
-    width: 50%;
-    background-color: linear-gradient(to top,);
-  }
-  
-  .imagework3{
+  .imagework{
     width: 50%;
   }
   
@@ -278,6 +284,10 @@ ol.custom-list li:before {
   
   .navstyle:hover{
     color: #265080;
+  }
+
+  .roundimg{
+    border-radius: 50%;
   }
   
   @media only screen and (max-width: 899px) {
@@ -311,6 +321,7 @@ ol.custom-list li:before {
       .bestworksitem2 {
         background-color: lightgray; 
         margin-bottom: 10px;
+        flex: 0 1 calc(33.333% - 13.33px);
       }
       
   }

@@ -21,9 +21,9 @@ const BarGraph = () => {
 }, [animationStarted]);
 
     const data = [
-        { label: 'Figma', value: 65 }, 
+        { label: 'Backend Dev', value: 65 }, 
         { label: 'Write Scripts', value: 40 }, 
-        { label: 'React JS', value: 70 }, 
+        { label: 'Frontend Dev', value: 75 }, 
         { label: 'Reading', value: 90 }, 
         { label: 'Bubble Tea', value: 85 }, 
     ];
@@ -60,8 +60,10 @@ const BarGraph = () => {
                             style={{ height: `${item.value}%`, backgroundColor: item.color, position: 'relative' }}
                         >
                             {/* Position the value on top of the label */}
-                            <span className="value" style={{ position: 'absolute', marginBottom:'15%', left: '50%', transform: 'translateX(-50%)', color:"white", fontSize:"40px" }}>{item.value}%</span>
-                            <span className="label">{item.label}</span>
+                            <span className="value" style={{ position: 'absolute', marginBottom:'40%', left: '50%', transform: 'translateX(-50%)', color:"white", fontSize:"40px" }}>{item.value}%</span>
+                            <span className="label">
+                                {item.label}
+                            </span>
                         </div>
                     ))}
                 </div>
