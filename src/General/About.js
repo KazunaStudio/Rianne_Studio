@@ -11,6 +11,9 @@ export class About extends Component{
     render(){
         return(
             <div style={{marginBottom:"5%", marginTop:"5%"}}>
+                <Helmet>
+                <title>About | Rianne's Studio</title>
+                </Helmet>
                 <div className='innersection2'>
                     <div className='innercontrol2'>
                         <div className='columnimage3'>
