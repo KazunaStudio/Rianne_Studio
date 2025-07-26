@@ -4,6 +4,7 @@ import '../General.css';
 import work1 from "../../Images/HearMe/HearMe.png";
 import work2 from "../../Images/FYPJ/specs.png";
 import work3 from "../../Images/PEEL/PeelLogo.png";
+import { Helmet } from 'react-helmet';
 
 
 
@@ -11,6 +12,9 @@ export class Portfolio extends Component{
     render(){
         return(
             <div style={{paddingBottom:"15%", paddingTop:"5%"}}>
+                <Helmet>
+                <title>Portfolio | Rianne's Studio</title>
+                </Helmet>
                 <div className="with-lines" style={{marginBottom:"30px"}}>
                     <h4>Collection of my works</h4>
                     </div>

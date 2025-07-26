@@ -2,7 +2,8 @@ import React,{Component,useState,useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import 'react-slideshow-image/dist/styles.css';
 import selfimg from "../Images/Self-Image.png";
-import './General.css'
+import './General.css';
+import { Helmet } from 'react-helmet';
 
 
 export class Contact extends Component{
