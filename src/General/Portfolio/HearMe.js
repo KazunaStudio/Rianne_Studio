@@ -10,6 +10,7 @@ import work6 from "../../Images/HearMe/NoiseDetection.png";
 import work7 from "../../Images/HearMe/chatmsg.png";
 import work9 from "../../Images/FYPJ/specs.png";
 import work10 from "../../Images/PEEL/PeelLogo.png";
+import work11 from "../../Images/PremiumApp/premiumapp.png";
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
@@ -31,14 +32,14 @@ export class HearMe extends Component{
                         <table className='table_adjust_port'>
                             <tr>
                                 <td className='lines'>
-                                    <h3 className='subheader'>Deliverables</h3>
+                                    <h3 className='subheader hearme'>Deliverables</h3>
                                     <p className='subbody'>
                                         Unique Value Proposition <br/>
                                         Interactive Prototype
                                     </p>
                                 </td>
                                 <td className='lines'>
-                                    <h3 className='subheader'>My Role</h3>
+                                    <h3 className='subheader hearme'>My Role</h3>
                                     <p className='subbody'>
                                         User Research <br/>
                                         UI/UX Design <br/>
@@ -46,7 +47,7 @@ export class HearMe extends Component{
                                     </p>
                                 </td>
                                 <td>
-                                    <h3 className='subheader'>Context</h3>
+                                    <h3 className='subheader hearme'>Context</h3>
                                     <p className='subbody'>
                                     Duration : 6 Months
                                     Team: Sagaan Pillai, Noor Ellyiana, Koh Xi Ze
@@ -241,8 +242,18 @@ export class HearMe extends Component{
 
                 <div class="with-lines2">
                     <p>Check out some of my other works!</p>
+                </div>
+                <div class="bestworksothers">
+                    <div class="bestworksitem">
+                        <Link to="/FnBWebsite" className='navstyle'>
+                            <div className='image1container'>
+                                <img src={work10} className='imagework3' alt="Logo"/>
+                            </div>
+                            <div className='textleft'>
+                                <b>FnB Website</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Front-End of the app <br/> (UX Design & Partial Development) </span> 
+                            </div>
+                        </Link>
                     </div>
-                    <div class="bestworksothers">
                     <div class="bestworksitem">
                         <Link to="/SpectacleE-commerceApp" className='navstyle'>
                             <div className='image1container'>
@@ -253,13 +264,13 @@ export class HearMe extends Component{
                             </div>
                         </Link>
                     </div>
-                    <div class="bestworksitem">
-                        <Link to="/FnBWebsite" className='navstyle'>
+                    <div className="bestworksitem">
+                        <Link to="/PremiumApp" className='navstyle'>
                             <div className='image1container'>
-                                <img src={work10} className='imagework3' alt="Logo"/>
+                                <img src={work11} className='imagework roundimg' alt="Logo"/>
                             </div>
-                            <div className='textleft'>
-                                <b>FnB Website</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Front-End of the app <br/> (UX Design & Partial Development) </span> 
+                            <div className='textleft'>       
+                                <b>Premium App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Application <br/> (Full Stack Development)</span> 
                             </div>
                         </Link>
                     </div>

@@ -10,6 +10,7 @@ import {Errorpage} from './Error';
 import { HearMe } from './General/Portfolio/HearMe';
 import { Ecomapp } from './General/Portfolio/EcomApp';
 import { FnBWebsite } from './General/Portfolio/FnBWebsite';
+import { PremiumApp } from './General/Portfolio/premiumapp';
 import Gobckup from './Functions/Gobckup'; 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
             <Route path='/HearingAidApp' element={<HearMe/>}/>
             <Route path='/SpectacleE-commerceApp' element={<Ecomapp/>}/>
             <Route path='/FnBWebsite' element={<FnBWebsite/>}/>
+            <Route path='/PremiumApp' element={<PremiumApp/>}/>
             <Route path='*' element={<Errorpage/>}/>
           </Routes>
           </main>

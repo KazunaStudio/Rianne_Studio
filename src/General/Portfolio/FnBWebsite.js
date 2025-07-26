@@ -10,6 +10,7 @@ import Peel from "./Videos/PEEL.mp4";
 import prototype from "../../Images/PEEL/Prototype.png";
 import work9 from "../../Images/FYPJ/specs.png";
 import work1 from "../../Images/HearMe/HearMe.png";
+import work4 from "../../Images/PremiumApp/premiumapp.png";
 import { Link } from 'react-router-dom';
 
 export class FnBWebsite extends Component{
@@ -128,18 +129,9 @@ export class FnBWebsite extends Component{
 
                 <div class="with-lines2">
                     <p>Check out some of my other works!</p>
-                    </div>
-                    <div class="bestworksothers">
-                    <div class="bestworksitem">
-                        <Link to="/HearingAidApp" className='navstyle'>
-                            <div className='image1container'>
-                                <img src={work1} className='imagework1' alt="Logo"/>
-                            </div>
-                            <div className='textleft'>       
-                                <b>Hearing Aid App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Hearing Aid App <br/> (UX Design)</span> 
-                            </div>
-                        </Link>
-                    </div>
+                </div>
+                <div class="bestworksothers">
+
                     <div class="bestworksitem">
                         <Link to="/SpectacleE-commerceApp" className='navstyle'>
                             <div className='image1container'>
@@ -147,6 +139,26 @@ export class FnBWebsite extends Component{
                             </div>
                             <div className='textleft'>
                                 <b>Spectacle E-commerce App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>First phase of the app creation <br/>(UX Design & First stage Development)</span> 
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="bestworksitem">
+                        <Link to="/PremiumApp" className='navstyle'>
+                            <div className='image1container'>
+                                <img src={work4} className='imagework roundimg' alt="Logo"/>
+                            </div>
+                            <div className='textleft'>       
+                                <b>Premium App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Application <br/> (Full Stack Development)</span> 
+                            </div>
+                        </Link>
+                    </div>
+                    <div class="bestworksitem">
+                        <Link to="/HearingAidApp" className='navstyle'>
+                            <div className='image1container'>
+                                <img src={work1} className='imagework1' alt="Logo"/>
+                            </div>
+                            <div className='textleft'>       
+                                <b>Hearing Aid App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Hearing Aid App <br/> (UX Design)</span> 
                             </div>
                         </Link>
                     </div>

@@ -10,6 +10,7 @@ import seller from "../../Images/FYPJ/Seller.png";
 import final from "../../Images/FYPJ/Prototype.gif";
 import work1 from "../../Images/HearMe/HearMe.png";
 import work3 from "../../Images/PEEL/PeelLogo.png";
+import work4 from "../../Images/PremiumApp/premiumapp.png";
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
@@ -26,7 +27,7 @@ export class Ecomapp extends Component{
                             My experience designing an app for a start-up e-commerce business relating to Spectacles. 
                             The goal is to promote the recycling of spectacles by selling/donating.
                         </p>
-                        <p style={{fontSize:"14px", margin:"0 auto", textAlign:"center"}}><img src={phone1} className='imagehearme' alt="phone1"/> Disclaimer: This logo is what I have made using AI, not the official logo used due to copyright.</p>
+                        <p style={{fontSize:"14px", margin:"0 auto", textAlign:"center"}}><img src={phone1} className='imagehearme' alt="phone1"/> Disclaimer: This logo is not the official logo used.</p>
                         <table  className='table_adjust_port'>
                             <tr>
                                 <td className='lines'>
@@ -156,8 +157,18 @@ export class Ecomapp extends Component{
 
                 <div class="with-lines2">
                     <p>Check out some of my other works!</p>
+                </div>
+                <div class="bestworksothers">
+                    <div className="bestworksitem">
+                        <Link to="/PremiumApp" className='navstyle'>
+                            <div className='image1container'>
+                                <img src={work4} className='imagework roundimg' alt="Logo"/>
+                            </div>
+                            <div className='textleft'>       
+                                <b>Premium App</b> <br/> <span style={{fontFamily:"Ralewaylight",fontSize:"16px"}}>Application <br/> (Full Stack Development)</span> 
+                            </div>
+                        </Link>
                     </div>
-                    <div class="bestworksothers">
                     <div class="bestworksitem">
                         <Link to="/HearingAidApp" className='navstyle'>
                             <div className='image1container'>
