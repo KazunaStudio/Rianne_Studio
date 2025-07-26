@@ -22,10 +22,10 @@ export class About extends Component{
                             <div className='centers'>
                                 <h1 style={{fontSize:"45px"}}>My Story</h1><hr style={{borderTop:"solid 4px rgb(74, 84, 93)"}}/>
                                 <p style={{fontFamily:"Ralewaylight"}}>
-                                    <span style={{fontSize:"22px",fontFamily:"Raleway"}}>I'm a student studying Applied Computing at Singapore Institute of Technology (SIT).</span>
+                                    <span style={{fontSize:"22px",fontFamily:"Raleway"}}>A student studying Applied Computing at Singapore Institute of Technology (SIT).</span>
                                     <br/><br/>
-                                    Since young, I love to spend my time designing things and as I grew older to solve problems with my designs.
-                                    Find me exploring new places to eat, taking pictures or simply creating digital art!
+                                    Love to spend my time designing things since young & further in life, enjoys seeing how my work come to life with programming.
+                                    Find me exploring new places to eat, taking pictures or simply creating art!
                                 </p> 
                             </div>
                         </div>
