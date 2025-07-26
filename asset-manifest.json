@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rianne_Studio/static/css/main.bf5792da.css",
-    "main.js": "/Rianne_Studio/static/js/main.00e02c2a.js",
+    "main.js": "/Rianne_Studio/static/js/main.dc5818c3.js",
     "static/js/592.d521066a.chunk.js": "/Rianne_Studio/static/js/592.d521066a.chunk.js",
     "static/media/PEEL.mp4": "/Rianne_Studio/static/media/PEEL.ed3aa61e60be3cb1ade4.mp4",
     "static/media/Prototype.gif": "/Rianne_Studio/static/media/Prototype.12f32c1ec0514b1340a2.gif",
@@ -17,10 +17,11 @@
     "static/media/framedraft.png": "/Rianne_Studio/static/media/framedraft.e1b9658247bc23700d91.png",
     "static/media/googleform.png": "/Rianne_Studio/static/media/googleform.12bff293b131bd4ff646.png",
     "static/media/Caveat-Regular.ttf": "/Rianne_Studio/static/media/Caveat-Regular.419940188ab4de524042.ttf",
-    "static/media/5_Udemy.jpg": "/Rianne_Studio/static/media/5_Udemy.e7501b1dd0e64e67958a.jpg",
+    "static/media/7_Udemy.jpg": "/Rianne_Studio/static/media/7_Udemy.e7501b1dd0e64e67958a.jpg",
     "static/media/Seller.png": "/Rianne_Studio/static/media/Seller.5bc9d92ecb44549a8ec2.png",
-    "static/media/6_Udemy.jpg": "/Rianne_Studio/static/media/6_Udemy.f0283103671de26e017c.jpg",
-    "static/media/3_SIT.jpg": "/Rianne_Studio/static/media/3_SIT.3cfca005cc88844f9197.jpg",
+    "static/media/6_modern_software_engineering.png": "/Rianne_Studio/static/media/6_modern_software_engineering.7ef0711553f688a0660d.png",
+    "static/media/8_Udemy.jpg": "/Rianne_Studio/static/media/8_Udemy.f0283103671de26e017c.jpg",
+    "static/media/3_Ethical_computing_and_data_analysis.jpg": "/Rianne_Studio/static/media/3_Ethical_computing_and_data_analysis.3cfca005cc88844f9197.jpg",
     "static/media/Raleway-Regular.ttf": "/Rianne_Studio/static/media/Raleway-Regular.c15b0bf7b86f34335251.ttf",
     "static/media/Raleway-Light.ttf": "/Rianne_Studio/static/media/Raleway-Light.6648e022766877ef6426.ttf",
     "static/media/LibreBaskerville-Regular.ttf": "/Rianne_Studio/static/media/LibreBaskerville-Regular.715e9cea90f54d5a4093.ttf",
@@ -30,9 +31,10 @@
     "static/media/chatmsg.png": "/Rianne_Studio/static/media/chatmsg.c5c72973772539dcf727.png",
     "static/media/Resume.pdf": "/Rianne_Studio/static/media/Resume.cb68eb0b09039ddf6add.pdf",
     "static/media/Riannelogo(white).png": "/Rianne_Studio/static/media/Riannelogo(white).fa4c245c0e7858d683cc.png",
+    "static/media/5_digital_logc_computing.png": "/Rianne_Studio/static/media/5_digital_logc_computing.53c66a3f2b15eca6fe4d.png",
     "static/media/HearMe.png": "/Rianne_Studio/static/media/HearMe.90f979c1553f1f684cbe.png",
     "static/media/NoiseDetection.png": "/Rianne_Studio/static/media/NoiseDetection.cf1ad9c734517c5b68ad.png",
-    "static/media/4_SIT.jpg": "/Rianne_Studio/static/media/4_SIT.c56006a2380e4cc9a608.jpg",
+    "static/media/4_cloud_architech_and_security.jpg": "/Rianne_Studio/static/media/4_cloud_architech_and_security.c56006a2380e4cc9a608.jpg",
     "static/media/MarckScript-Regular.ttf": "/Rianne_Studio/static/media/MarckScript-Regular.5b6142752f3269576cc7.ttf",
     "static/media/customerfolio.png": "/Rianne_Studio/static/media/customerfolio.c0c4cb42c06dbe3a351a.png",
     "static/media/Amaranth-Regular.ttf": "/Rianne_Studio/static/media/Amaranth-Regular.f001406c48689971189f.ttf",
@@ -40,18 +42,17 @@
     "static/media/2_NYP.jpg": "/Rianne_Studio/static/media/2_NYP.78668d841c0985d47e8f.jpg",
     "static/media/Salsa-Regular.ttf": "/Rianne_Studio/static/media/Salsa-Regular.44270902e42bdce4c660.ttf",
     "static/media/CropPreview.png": "/Rianne_Studio/static/media/CropPreview.153ffe735fcf3e80e140.png",
-    "static/media/1_ITE.jpg": "/Rianne_Studio/static/media/1_ITE.b59ffebac545fb45d144.jpg",
     "static/media/specs.png": "/Rianne_Studio/static/media/specs.6b4bc15506b492e59a2f.png",
     "static/media/SIT_LOGO.png": "/Rianne_Studio/static/media/SIT_LOGO.e6bcb603198b8d91075a.png",
     "static/media/pageheri.jpg": "/Rianne_Studio/static/media/pageheri.33901fa730fd6d26e66d.jpg",
     "static/media/firstdraft.png": "/Rianne_Studio/static/media/firstdraft.4a0cc43d018bcc1a4910.png",
     "index.html": "/Rianne_Studio/index.html",
     "main.bf5792da.css.map": "/Rianne_Studio/static/css/main.bf5792da.css.map",
-    "main.00e02c2a.js.map": "/Rianne_Studio/static/js/main.00e02c2a.js.map",
+    "main.dc5818c3.js.map": "/Rianne_Studio/static/js/main.dc5818c3.js.map",
     "592.d521066a.chunk.js.map": "/Rianne_Studio/static/js/592.d521066a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf5792da.css",
-    "static/js/main.00e02c2a.js"
+    "static/js/main.dc5818c3.js"
   ]
 }
