@@ -9,6 +9,9 @@ export class Contact extends Component{
     render(){
         return(
             <div style={{paddingTop:"6%",paddingBottom:"1%"}}>
+                <Helmet>
+                <title>Contact | Rianne's Studio</title>
+                </Helmet>
                 <div className='section2'>
                     <div className='innersection2'>
                         <div className='innercontrol1'>
