@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Rianne_Studio/static/css/main.bf5792da.css",
-    "main.js": "/Rianne_Studio/static/js/main.222ade62.js",
-    "static/js/592.d521066a.chunk.js": "/Rianne_Studio/static/js/592.d521066a.chunk.js",
+    "main.js": "/Rianne_Studio/static/js/main.ea699a37.js",
+    "static/js/592.ae83c5ca.chunk.js": "/Rianne_Studio/static/js/592.ae83c5ca.chunk.js",
     "static/media/PEEL.mp4": "/Rianne_Studio/static/media/PEEL.ed3aa61e60be3cb1ade4.mp4",
     "static/media/Prototype.gif": "/Rianne_Studio/static/media/Prototype.12f32c1ec0514b1340a2.gif",
     "static/media/HearMe.mp4": "/Rianne_Studio/static/media/HearMe.83c99cad7085e4fa2528.mp4",
@@ -48,11 +48,11 @@
     "static/media/firstdraft.png": "/Rianne_Studio/static/media/firstdraft.4a0cc43d018bcc1a4910.png",
     "index.html": "/Rianne_Studio/index.html",
     "main.bf5792da.css.map": "/Rianne_Studio/static/css/main.bf5792da.css.map",
-    "main.222ade62.js.map": "/Rianne_Studio/static/js/main.222ade62.js.map",
-    "592.d521066a.chunk.js.map": "/Rianne_Studio/static/js/592.d521066a.chunk.js.map"
+    "main.ea699a37.js.map": "/Rianne_Studio/static/js/main.ea699a37.js.map",
+    "592.ae83c5ca.chunk.js.map": "/Rianne_Studio/static/js/592.ae83c5ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf5792da.css",
-    "static/js/main.222ade62.js"
+    "static/js/main.ea699a37.js"
   ]
 }
