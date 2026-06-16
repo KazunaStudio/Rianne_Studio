@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rianne_Studio/static/css/main.bf5792da.css",
-    "main.js": "/Rianne_Studio/static/js/main.07499249.js",
+    "main.js": "/Rianne_Studio/static/js/main.222ade62.js",
     "static/js/592.d521066a.chunk.js": "/Rianne_Studio/static/js/592.d521066a.chunk.js",
     "static/media/PEEL.mp4": "/Rianne_Studio/static/media/PEEL.ed3aa61e60be3cb1ade4.mp4",
     "static/media/Prototype.gif": "/Rianne_Studio/static/media/Prototype.12f32c1ec0514b1340a2.gif",
@@ -26,9 +26,9 @@
     "static/media/Raleway-Light.ttf": "/Rianne_Studio/static/media/Raleway-Light.6648e022766877ef6426.ttf",
     "static/media/LibreBaskerville-Regular.ttf": "/Rianne_Studio/static/media/LibreBaskerville-Regular.715e9cea90f54d5a4093.ttf",
     "static/media/piechart.png": "/Rianne_Studio/static/media/piechart.09aecc491b7a3856cca6.png",
-    "static/media/Resume.pdf": "/Rianne_Studio/static/media/Resume.00f9d70fc0f26b961027.pdf",
     "static/media/PeelLogo.png": "/Rianne_Studio/static/media/PeelLogo.8bf49a75e235aaa8d874.png",
     "static/media/SourceCodePro-Regular.ttf": "/Rianne_Studio/static/media/SourceCodePro-Regular.75bc14637f1d0317a8c5.ttf",
+    "static/media/Resume.pdf": "/Rianne_Studio/static/media/Resume.d08eb00cab437c827698.pdf",
     "static/media/chatmsg.png": "/Rianne_Studio/static/media/chatmsg.c5c72973772539dcf727.png",
     "static/media/Riannelogo(white).png": "/Rianne_Studio/static/media/Riannelogo(white).fa4c245c0e7858d683cc.png",
     "static/media/5_digital_logc_computing.png": "/Rianne_Studio/static/media/5_digital_logc_computing.53c66a3f2b15eca6fe4d.png",
@@ -48,11 +48,11 @@
     "static/media/firstdraft.png": "/Rianne_Studio/static/media/firstdraft.4a0cc43d018bcc1a4910.png",
     "index.html": "/Rianne_Studio/index.html",
     "main.bf5792da.css.map": "/Rianne_Studio/static/css/main.bf5792da.css.map",
-    "main.07499249.js.map": "/Rianne_Studio/static/js/main.07499249.js.map",
+    "main.222ade62.js.map": "/Rianne_Studio/static/js/main.222ade62.js.map",
     "592.d521066a.chunk.js.map": "/Rianne_Studio/static/js/592.d521066a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf5792da.css",
-    "static/js/main.07499249.js"
+    "static/js/main.222ade62.js"
   ]
 }
